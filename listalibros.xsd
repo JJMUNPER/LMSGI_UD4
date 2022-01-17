@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1"xml:lang="es">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
 <xs:element name="listalibros">
     <xs:complexType>
         <xs:sequence>
@@ -26,7 +26,7 @@
                         
                         <xs:element name="editorial" type="xs:string"/>
                         
-                        <xs:element name="fechaPublicacion" type="xs:string"/>
+                        <xs:element name="fecha_publicacion" type="xs:string"/>
 
                         <xs:element name="ISBN" type="xs:string"/>
 
