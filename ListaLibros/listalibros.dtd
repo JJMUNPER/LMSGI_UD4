@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <!ELEMENT listalibros (libro*)>
 <!ELEMENT libro (autores, titulo, editorial, fecha_publicacion, ISBN)>
 <!ELEMENT autores (autor+)>

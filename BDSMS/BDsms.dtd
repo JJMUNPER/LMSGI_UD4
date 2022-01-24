@@ -1,4 +1,3 @@
-
 <!ELEMENT BDsms(sms*)>
 <!ELEMENT sms (telefono, fecha, hora, mensaje)>
 <!ELEMENT telefono (#PCDATA)>
