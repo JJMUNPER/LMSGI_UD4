@@ -1,4 +1,4 @@
-<!ELEMENT concesionario (coche*)>
+<!ELEMENT concesionario (coche)*>
 <!ELEMENT coche (codigodecoche, marca, modelo, matricula, potencia, plazas, numerodepuertas)>
 <!ELEMENT codigodecoche (#PCDATA)>
 <!ELEMENT marca (#PCDATA)>
