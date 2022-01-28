@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE clientes SYSTEM "clientes.dtd">
 <clientes>
-    <sede>
+    <sede cod_sede="1">
         <direccion>Calle Buleria</direccion>
+        <empleado>Jose Muñoz Quintana</empleado>
+        <fecha_alta>11/03/10</fecha_alta>
+        <descripcion>cliente 1</descripcion>
+        <cliente cod_cliente="1">
+            <numeroviviendas>2</numeroviviendas>
+            <coste>260000</coste>
+            <resumen>Un par de casas</resumen>
+            <plazoalta>30</plazoalta>
+        </cliente>
     </sede>
 </clientes>
