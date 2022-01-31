@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT sedes (sede)*>
+<!ELEMENT sede (direccion, poblacion, provincia, numerotlf, correo)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT numerotlf (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT clientes (cod_cliente, descripcion, nombre, numeroviviendas, coste, resumen, plazo, empleadoAlta)>
+<!ELEMENT empleadoAlta (empleado)+>
+<!ELEMENT empleado (nombre, fecha_alta, codigoSede)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_alta (#PCDATA)>
+<!ELEMENT codigoSede (#PCDATA)>

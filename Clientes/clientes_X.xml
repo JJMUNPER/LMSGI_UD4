@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE clientes SYSTEM "clientes.xsd">
+<sedes cod_sede="A0000001">
+    <direccion>Calle Arcos</direccion>
+    <poblacion>Cádiz</poblacion>
+    <provincia>Cádiz</provincia>
+    <numerotlf>956704255</numerotlf>
+    <correo>inmobiliaria@correo.com</correo>
+    <clientes>
+        <cliente cod_cliente ="ASS-001">
+            <descripcion>Solvente</descripcion>
+            <nombre>Juan Marin Fernandez</nombre>
+            <numeroviviendas>2</numeroviviendas>
+            <coste>245000</coste>
+            <resumen>Piso exterior ciudad; Terreno no edificado</resumen>
+            <plazo>11/02/2004;03/08/2010</plazo>
+            <empleadoAlta>
+                <nombre>Javi el nervios</nombre>
+                <fecha_alta>20/10/2014</fecha_alta>
+                <codigoSede>A0000001</codigoSede>
+            </empleadoAlta>
+        </cliente>
+        <cliente cod_cliente ="ASS-002">
+            <descripcion>Insolvente</descripcion>
+            <nombre>Adrian Guerrero Temblador</nombre>
+            <numeroviviendas>1</numeroviviendas>
+            <coste>90000</coste>
+            <resumen>Piso situado en la barriada la paz</resumen>
+            <plazo>24/08/2015</plazo>
+            <empleadoAlta>
+                <nombre>Remedios la del medio</nombre>
+                <fecha_alta>02/07/2017</fecha_alta>
+                <codigoSede>A0000001</codigoSede>
+            </empleadoAlta>
+        </cliente>
+        <cliente cod_cliente ="ASS-030">
+            <descripcion>Solvente</descripcion>
+            <nombre>Maria Garcia Armario</nombre>
+            <numeroviviendas>3</numeroviviendas>
+            <coste>370000</coste>
+            <resumen>Piso en el centro; Adosado en el exterior de la ciudad; Casa de campo con terreno para cultivar</resumen>
+            <plazo>03/07/1995;09/11/2000;16/02/2005</plazo>
+            <empleadoAlta>
+                <nombre>Manuel el Oreja</nombre>
+                <fecha_alta>30/02/2019</fecha_alta>
+                <codigoSede>A0000001</codigoSede>
+            </empleadoAlta>
+        </cliente>
+      
+        
+       
+    </clientes>
+
+</sedes>

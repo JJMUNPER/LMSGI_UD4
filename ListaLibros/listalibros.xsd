@@ -15,7 +15,7 @@
                                         <xs:sequence>
                                             <xs:element name="apellido1" type="xs:string"/>
                                             <xs:element name="apellido2" type="xs:string"/>
-                                            <xs:element name="nombre" type=sx:"string"/>
+                                            <xs:element name="nombre" type= "sx:string"/>
                                         </xs:sequence>
                                     </xs:complexType>
                                 </xs:element>
